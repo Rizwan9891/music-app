@@ -1,0 +1,172 @@
+.service{
+   
+    width: 120vmin;
+    height: 90vmin;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5vmin;
+    flex-basis: 50%;
+}
+.service-page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding:5vmin 0;
+}
+.service-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 25vmin;
+    width: 50vmin;
+    margin: 2vmin;
+    position: relative;
+    box-shadow: 0 0 0.5vmin grey;
+}
+.card-section-image{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-logo{
+    height: 15vmin;
+    width: 20vmin;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: 'https://images.unsplash.com/photo-1672404383601-437618e85eae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60';
+}
+.service-card-input{
+    width: 100%;
+}
+.user-card-detail{
+    display: flex;
+    width: 50vmin;
+    border-top: 1px solid black;
+    padding: 1vmin;
+}
+.non{
+    display: flex;
+    flex-direction: column;
+
+}
+.user-card-detail > div{
+    display: flex;
+    flex-direction: column;
+}
+.admin-user-card{
+    width: 50vmin;
+    border: 2px solid grey;
+    border-radius: 2vmin;
+    padding: 0%;
+    height: fit-content;
+}
+.user-details{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.user-analytice-head{
+    text-align: center;
+    padding: 1vmin;
+}
+.total-info{
+    width: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5vmin;
+}
+.paid-users-eye{
+    height: 4vmin;
+    width: 4vmin;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    cursor: pointer;
+}
+.paid-users{
+    display: flex;
+    justify-content: space-between;
+    width: 50vmin;
+    border-top: 1px solid black;
+    padding: 1vmin;
+}
+.eyebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blockbtn{
+    width: 15vmin;
+    height: 6vmin;
+    border-radius: 5vmin;
+    color: white;
+    background-color: brown;
+    border: none;
+    font-size: 2.5vmin;
+    cursor: pointer;
+}
+.eyeboxbox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vmin;
+    width: 45vmin;
+    height: 20vmin;
+    border: 1px solid gray;
+    border-radius: 2vmin;
+}
+.signupeye{
+    height: 6vmin;
+    border-bottom: 2px solid gray;
+    font-size: 3vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Timeloc{
+    height: 15vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3.5vmin;
+    justify-content: space-between;
+    justify-content: center;
+}
+.eyeboxmain{
+    display: flex;
+    justify-content: space-around;
+}
+.eyeimg{ 
+    width: 40vmin;
+    height: 2vmin;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-notification{
+    width: fit-content;
+    margin: auto;
+}
+.paginate-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.paginate-line{
+    width: fit-content;
+    margin: auto;
+}
+.paginate-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

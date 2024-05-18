@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+.home{
+    width: 100%;
+    height: 200vmin;
+    background-color: rgb(23,22,23);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: roboto;
+}
+.centerBox{
+    width: 50%;
+    height: 80vmin;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.centerBox > h1{
+    margin-top: 10vmin;
+    font-size: 8vmin;
+}
+.centerBox > p{
+    margin-top: 7vmin;
+    font-size: 3.2vmin;
+    text-align: center;
+}
+.centerBox > button{
+    margin-top: 10vmin;
+    width: 40vmin;
+    height: 8vmin;
+    color: white;
+    background-color: #3B5BDB;
+    border: none;
+    border-radius: 1vmin;
+    font-size: 2.5vmin;
+    word-spacing: 0.5vmin;
+    
+}
+.LinkPutlink{
+    text-decoration: none;
+    color: white;
+}

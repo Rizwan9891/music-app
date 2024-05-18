@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.profilepage {
+    /* width: 100%;
+     */
+    display: flex;
+    flex-direction: column;
+}
+
+.profilefirst {
+    /* height: 70vmin;
+     */
+    margin-top: 15vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pro1 {
+    width: 120vmin;
+    height: 25vmin;
+    display: flex;
+}
+
+.vertical {
+    border-left: 3px solid rgb(18, 175, 255);
+    width: 3px;
+    height: 250px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 34px;
+}
+
+.playmusic-service-card2 {
+    width: 50% !important;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    position: relative;
+    left: 7rem;
+    height: 11vmin;
+}
+
+.playmusic-service {
+    height: 11vmin !important;
+    width: 25vmin;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn.btn-primary {
+
+    border-radius: 40px;
+    width: 142px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid black !important;
+    color: black !important;
+    box-shadow: 0px 3px 5px rgba(0, 166, 255, 0.3);
+    transition: all 0.2s ease-in-out;
+}
+
+.btn.btn-primary:hover {
+
+    border-radius: 40px;
+    width: 142px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #0d6efd !important;
+    color: #0d6efd !important;
+}
+
+.p {
+    font-family: open sans, sans-serif;
+    font-size: 3vmin;
+    color: gray;
+    letter-spacing: 0.5vmin;
+}
+
+.vedio-border {
+    border: 2px solid #12afff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: fit-content; */
+    padding: 15px;
+}
+
+/* my style */
+.bord {
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.6);
+}
+
+.section {
+    padding: 150px 0px;
+}
+
+.prophoto {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 5px solid black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.prophoto img {
+    width: 100%;
+    height: 100%;
+}
+
+.name {
+    transition: inherit;
+    letter-spacing: 0em;
+    font-weight: 400;
+    display: initial;
+    margin: 0px 7.5px 0px 0px;
+    color: #000000;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+
+@media (max-width: 500px) {
+    .prophoto {
+        position: relative;
+        min-width: 80px;
+        min-height: 80px;
+        height: auto;
+        width: auto;
+        border-radius: 100px;
+        border: 4px solid black;
+    }
+
+    .name {
+        margin: 0px;
+        font-size: 25px;
+    }
+
+    .proname {
+        padding: 0px;
+    }
+}
+
+.job {
+    padding: 29px 0px 10px 0px;
+    font-size: 15px;
+    margin: 0px;
+    color: gray;
+    text-transform: capitalize;
+}
+
+.discription {
+    font-family: open sans, sans-serif;
+    font-size: 18px;
+}
+
+.applink {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.applinkdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #23ccfa;
+    margin-bottom: 15px;
+    width: fit-content;
+    min-width: 250px;
+    margin-left: 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    padding: 2px 0px;
+}
+
+.applinkdiv img {
+    max-width: 25px;
+    margin-right: 12px;
+}
+
+.applinkdiv:hover {
+    background-color: rgb(51, 52, 52);
+    transition: 0.3s;
+    cursor: pointer;
+    color: #fff;
+}
+
+.applinkdiv:hover span {
+    color: #fff;
+}
+
+.p1 {
+    margin-bottom: 0px;
+}
+
+.profile-links {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.proname {
+    display: block;
+}
+
+.proname>div {
+    height: 7vmin;
+}
+
+.pro2 {
+    width: 120vmin;
+    height: 30vmin;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5vmin;
+}
+
+.edit-input {
+    margin-top: 2vmin;
+}
+
+.profile-service-modal {
+    height: 10vmin;
+    width: 10vmin;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.link-input-modal {
+    width: 75%;
+}
+
+.profile-links {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-links-option {
+    display: flex;
+    width: 45%;
+    flex-wrap: wrap;
+}
+
+.profile-link-card {
+    width: 20%;
+    display: flex;
+}
+
+.nav {
+    display: grid;
+    justify-content: space-between;
+    color: white;
+    height: 70pt;
+    grid-template-columns: 20% 60% 20%;
+    text-align: center;
+    z-index: 99999;
+}
+
+.logout {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.profile-play-btn {
+    width: 17vmin;
+    height: 5vmin;
+    border-radius: 4vmin;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 2.1vmin;
+}
+
+.profile-play-btn:hover {
+    border: 1px solid rgb(18, 175, 255);
+    color: rgb(18, 175, 255);
+}
+
+#blockMob {
+    display: none;
+}
+
+#blockDesk {
+    display: block;
+}
+
+.none {
+    display: block;
+}
+
+#noneapplink {
+    display: block;
+}
+
+#noneDesktop {
+    display: block;
+}
+
+.nav span {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Mulish', sans-serif;
+}
+
+.logout-button {
+    background-color: transparent;
+    border: 0px;
+    display: none;
+    padding: 14px;
+}
+
+@media (max-width: 580px) {
+    .nav span {
+        font-size: 30px;
+    }
+
+    .logout-button {
+        display: block;
+    }
+
+    .logout {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 580px) {
+    #blockMob {
+        display: block;
+    }
+
+    .prophoto {
+        position: relative;
+        left: 0px;
+        width: 85px;
+        height: 85px;
+        object-fit: cover;
+    }
+
+    #noneDesktop {
+        display: none;
+    }
+
+    #noneapplink {
+        display: none;
+    }
+
+    .applink {
+        margin-left: -115px;
+        margin-top: 16px;
+    }
+
+    #blockDesk {
+        display: none;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .vertical {
+        display: none;
+    }
+
+    .profilefirst {
+        /* adjust the styles for smaller viewports */
+        margin-top: 18vmin;
+        flex-direction: row;
+        background-color: bisque;
+    }
+
+    .pro1 {
+        /* display: flex;
+             */
+        margin-left: 10vmin;
+    }
+
+    .proname {
+        justify-content: baseline;
+        flex-direction: column;
+    }
+
+    .pro1 {
+        width: 120vmin;
+        height: 60vmin;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pro2 {
+        margin-right: 120vmin;
+        flex-direction: column;
+    }
+
+    .proname {
+        padding: 0px;
+        padding-left: 0px;
+        padding-top: 16px;
+    }
+
+    .job {
+        padding: 4px 0px 13px 0px;
+        font-size: 11px;
+        margin: 0px;
+        color: gray;
+        text-transform: capitalize;
+    }
+
+    .discription {
+        font-family: open sans, sans-serif;
+        font-size: 14px;
+        margin-bottom: 2rem;
+    }
+
+    .nav span {
+        font-size: 26px !important;
+        font-family: wfont_905175_63f7349273cc447795bf367207bfe307, wf_63f7349273cc447795bf36720, orig_guess_sans_semibold;
+    }
+
+    .bord {
+        display: block;
+        border: 1px solid #12afff;
+        height: 200px;
+        align-self: center;
+    }
+
+    .name {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .name img {
+        margin-left: 1vmin;
+        margin-top: -28px;
+        width: 20px;
+    }
+
+    .nav {
+        height: 40pt;
+    }
+
+    .section {
+        padding: 7rem 0px;
+        padding-bottom: 0px;
+    }
+
+    .proname img {
+        margin-top: 0.1rem;
+        width: 20px;
+        margin-top: -3px !important;
+    }
+
+    p.d {
+        font-size: 18px;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .twowali p {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .lastOne {
+        margin-top: 4rem;
+        padding: 0vmin;
+    }
+}
+
+.lastOne1 {
+    display: block;
+    margin: 4rem auto;
+}
+
+.profile-links {
+    text-decoration: none;
+}
+
+.lastOne1 {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.mantine-16pg774 {
+    padding-top: 120px !important;
+}

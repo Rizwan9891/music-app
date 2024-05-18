@@ -1,0 +1,19 @@
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid grey;
+    height: 10vmin;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.footer-img{
+    height: 8vmin;
+    width:8vmin;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

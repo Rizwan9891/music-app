@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+.PasteLinkPage{
+    width: 100%;
+    /* height: 200vmin; */
+    background-color: rgb(23,22,23);
+    display: flex;
+    flex-direction: column;align-items: center;
+}
+
+.SecondBox{
+    margin-top: 2vmin;
+    width: 60vmin;
+    /* height: 119vmin; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* padding: 2vmin; */
+    border-radius: 0.5vmin;
+}
+.second1{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    height: 7vmin;
+    padding: 2vmin;
+    border-bottom: 1px solid rgb(176, 171, 171);
+}
+.second1 > div{
+    display: flex;
+}
+.second1 > div > p{
+    font-size: 3vmin;
+    margin-left: 1.5vmin;
+}
+.nextBtn{
+    width: 10vmin;
+    height: 3vmin;
+    border: none;
+    background-color: white;
+    font-size: 2.5vmin;
+    cursor: pointer;
+    text-decoration: none;
+}
+.second2{
+    height: 15vmin;
+    padding: 2vmin;
+    border-bottom: 1px solid rgb(176, 171, 171);
+    display: flex;
+    flex-direction: column;
+}
+.applogo{
+    display: flex;
+    justify-content: space-between;
+}
+.applogoin{
+    width: 13vmin;
+    height: 5vmin;
+    display: flex;
+    justify-content: space-between;
+}
+.applogoin > p{
+    color: green;
+    font-size: 2.7vmin;
+}
+.second2input{
+    margin-top: 1vmin;
+    height: 5vmin;
+    border: none;
+    background-color: rgb(236, 225, 225);
+    outline: none;
+}
+.second3{
+    display: flex;
+    height: 7vmin;
+    padding: 2vmin;
+    justify-content: center;
+    border-bottom: 1px solid rgb(176, 171, 171);
+    font-size: 2.6vmin;
+}
+.second3 > p{
+    margin-left: 0.8vmin;
+    cursor: pointer;
+}
+.second3 > p:hover{
+    color: rgb(18,175,255);
+
+}
+.three> .applogo > .applogoin > p{
+    color: red;
+}
+.seven> .applogo > .applogoin > p{
+    color: orange;
+}
+/*  */
+.linkput-page{
+    height: 100vmin;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.678);
+    padding: 5vmin;
+}
+.linkput{
+    height: 90vmin;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.linkput-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 25vmin;
+    width: 35vmin;
+    margin: 1vmin;
+}

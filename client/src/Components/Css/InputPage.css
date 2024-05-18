@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.InputPage{
+    width: 100%;
+    height: 100vmin;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagebox{
+    width: 60vmin;
+    height: 85vmin;
+    background-color: white;
+    border-radius: 0.5vmin;
+    padding: 2vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.photoUpload {
+    width: 60vmin;
+    height: 40vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid gray;
+
+}
+.photoUpload > div{
+    display: flex;
+    align-items: center;
+}
+.photoUpload > div > label{
+    cursor: pointer;
+    color: blue;
+    font-size: 2.5vmin;
+}
+.title{
+    width: 60vmin;
+    height: 30vmin;
+    padding: 2vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title > div{
+    width: 50vmin;
+    display: flex;
+    justify-content: space-between;
+}
+.title > div > input{
+    width: 20vmin;
+    outline: none;
+}
+.UploadSaveBtn{
+    width: 20vmin;
+    height: 5vmin;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5vmin;
+    font-size: 3vmin;
+    text-decoration: none;
+    cursor: pointer;
+}
+.input-image-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vmin;
+    width: 60vmin;
+}
+.input-image-card-photo{
+    height: 30vmin;
+    width: 40vmin;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.input-image-photo-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-image-input{
+    display: flex;
+    width: 50vmin;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1vmin;
+}
+.InputImageLabel{
+    color: #228be6;
+    cursor: pointer;
+}

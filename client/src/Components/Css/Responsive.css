@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    height: 330px;
+    width: 330px;
+    padding: 13px;
+    margin: auto;
+    border: 2px solid blue;
+}
+
+.main {
+    /* background-image: url('../components/banner.png'); */
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+
+.wrapper {
+    width: 100vw;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.Box1 {
+    width: 500px;
+    height: 200px;
+    border-right: 2px solid rgb(0, 208, 255);
+    padding: 8px;
+}
+
+.Box2 {
+    width: 500px;
+    /* height: fit-content; */
+    /* border-left: 1px solid rgb(0, 208, 255); */
+    padding: 8px;
+
+}
+
+
+
+.Box2 .col {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10;
+    height: 50px;
+
+}
+
+.Box1 .col {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10;
+    height: 50px;
+
+}
+
+
+.col button {
+    height: 35px;
+    width: 120px;
+    border-radius: 30px;
+    background-color: #fff;
+    border-width: 1px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.musicLink {
+    width: 17vmin;
+    height: 5vmin;
+    border: 1px solid black;
+    border-radius: 4vmin;
+    cursor: pointer;
+    font-size: 2.1vmin;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #F0F0F0;
+}
+
+.musicLink:hover {
+    border: 1px solid rgb(18, 175, 255);
+    color: rgb(18, 175, 255);
+}
+
+.playmusic-service {
+    max-width: 150px;
+    height: auto;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.playmusic-service-card {}
+
+.right-service {
+    /* margin-right: 10vmin; */
+}
+
+.left-services {
+    border-right: 2px solid rgb(18, 175, 255);
+}
+
+.left-services, .right-services {
+    width: 50%;
+}
+
+@media (max-width:600px) {
+    .left-services, .right-services {
+        width: 100%;
+    }
+
+    .left-services {
+        border-right: 0px solid rgb(18, 175, 255);
+    }
+
+}
+
+@media (min-width:1200px) {
+    .left-services, .right-services {
+        width: 30%;
+    }
+
+}
+
+.service-line {
+    height: 100%;
+    width: 1vmin;
+    background-color: rgb(0, 0, 0);
+}
+
+.play-btn {
+    width: 17vmin;
+    height: 5vmin;
+    border-radius: 4vmin;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 2.1vmin;
+}
+
+.play-btn:hover {
+    border: 1px solid rgb(18, 175, 255);
+    color: rgb(18, 175, 255);
+}
+
+.profile-links {
+    text-decoration: none;
+}
+
+.col button:hover {
+
+    border-radius: 30px;
+    border-color: blue;
+    color: blue;
+    box-shadow: 0 0 5px rgba(0, 4, 255, 0.3)
+}
